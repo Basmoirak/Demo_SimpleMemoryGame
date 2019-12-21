@@ -38,7 +38,6 @@ public class ImageAdapter extends BaseAdapter {
             imageView.setLayoutParams(new GridView.LayoutParams(350,350));
             imageView.setScaleType(ImageView.ScaleType.FIT_XY);
         }
-
         else
         imageView = (ImageView) convertView;
         imageView.setImageResource(R.drawable.pokeball);
